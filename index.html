@@ -38,12 +38,19 @@ Pilot will be aired on 27 September 15, Hope they score good to keep the show r
 *Content in the blog may be related with the facts that exits in reality or may contain information about the people or films that may have been given for the information purpose.
 </p>
  <h2>For Alerts, Suscribe to blog!</h2>
-<button type="button" onclick="function(){fun(){alert('Suscribed');
+<button type="button" id="Sbutton"> Suscribe ! </button>
+ <script>
+document.getElementById("sbutton").onclick = function() {myFunction()};
+  function myFunction() {
+  {alert('Suscribed');
         gtag('event', 'Suscribe', {
              'event_category': 'TV Blog',
              'event_label': 'Alert',
             });
        }
-}"> Suscribe ! </button>
+}
+ </script>
 </body>
 </html>
+
+
